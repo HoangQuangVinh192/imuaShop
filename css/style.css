@@ -109,7 +109,7 @@ nav ul li a:hover{
 }
 .menu-top-content ul li .menu-top-content-text1{
 	font-weight: bold;
-	text-align: center;
+	
 }
 .menu-top-content ul li .menu-top-content-text2{
 	color: #919099;
@@ -880,8 +880,10 @@ nav ul li a:hover{
 }
 .fixed{
 	position: fixed;
-	z-index: 1000;
+	width: 1200px;
 	top: 0px;
+	left: 160px;
+	z-index: 5;
 }
 
 

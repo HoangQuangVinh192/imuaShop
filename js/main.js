@@ -38,14 +38,19 @@ function main(){
 		});
 	}
 
-	var pos = $(".khung").position();
+	pos = $('.khung').position();
 
 	$(window).scroll(function(){
 		var posScroll = $(document).scrollTop();
 		if(parseInt(posScroll) > parseInt(pos.top) ){
-			$(".khung").addClass('fixed')
+			$('.nav1').addClass('fixed');
+			$('.khung').removeClass('fixed');
 		}else{
-			$(".khung").removeClass('fixed')
+			$('.nav1').removeClass('fixed');
+			$('.khung').removeClass('fixed');
 		}
 	});
+
+
+
 }
